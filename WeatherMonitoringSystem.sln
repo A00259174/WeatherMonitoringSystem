@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherMonitoringSystem", "WeatherMonitoringSystem\WeatherMonitoringSystem.csproj", "{6C10F1F1-BF95-4F64-9AAA-496A9746A9A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{666591A7-F377-4A68-A0E5-CC56D62FC871}"
+	ProjectSection(SolutionItems) = preProject
+		IDisplay.cs = IDisplay.cs
+		IForecastDisplay.cs = IForecastDisplay.cs
+		IStatisticsDisplay.cs = IStatisticsDisplay.cs
+		IWeatherData.cs = IWeatherData.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementations", "Implementations", "{F6000845-AAE2-4CC4-A63D-0B4296A5E05E}"
+	ProjectSection(SolutionItems) = preProject
+		CurrentConditionsDisplay.cs = CurrentConditionsDisplay.cs
+		ForecastDisplay.cs = ForecastDisplay.cs
+		StatisticsDisplay.cs = StatisticsDisplay.cs
+		WeatherData.cs = WeatherData.cs
+		WeatherStation.cs = WeatherStation.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C10F1F1-BF95-4F64-9AAA-496A9746A9A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C10F1F1-BF95-4F64-9AAA-496A9746A9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C10F1F1-BF95-4F64-9AAA-496A9746A9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C10F1F1-BF95-4F64-9AAA-496A9746A9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {489709D5-56D9-4F71-A1FB-5425C4E5A787}
+	EndGlobalSection
+EndGlobal
